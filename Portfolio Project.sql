@@ -112,7 +112,7 @@ From PortfolioProject..Covid_Deaths$
 Group by Location, Population, date
 order by PercentPopulationInfected desc
 
---Fix at earliest Convenience
+
 
 Select *, (RollingPeopleVaccinated/Population)*100
 From PopvsVac
