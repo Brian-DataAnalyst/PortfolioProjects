@@ -62,11 +62,6 @@ GROUP BY date
 ORDER BY 1,2
 
 
---Looking at total population vs vaccination
-WITH PopsvsVac (continent, location, date, population, new_vaccinations, RollingPeopleVaccinated)
-As(
-
-
 
 
 --Currently causing error with overflow converting to data type int...
